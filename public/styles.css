@@ -1,0 +1,61 @@
+#main-div{
+    padding: 20%;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 40px;
+
+}
+
+#whole {
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 40px;
+  }
+
+html, body {
+    margin: 0;
+  }
+  
+  canvas {
+    display: block;
+    position:absolute;
+  top:0;
+  left:0;
+  }
+  
+  
+  #increment, #decrement, #reset {
+    margin: 20px;
+    font-family: 'Share Tech Mono', monospace;
+    border: none;
+    background: #404040;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+  }
+
+  #increment:hover, #decrement:hover, #reset:hover {
+    color: #e4d5d5 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+    }
