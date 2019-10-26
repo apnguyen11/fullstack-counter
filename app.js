@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
 var counter = require('./modules.js')
+// Firebase App (the core Firebase SDK) is always required and
+// must be listed before other Firebase SDKs
+var firebase = require("firebase/app");
 
 app.use(express.static(__dirname + '/public'));
 app.use(express.json());

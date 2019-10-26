@@ -78,23 +78,6 @@ function postResData(url, data) {
    
 };
 
-// function renderIncrement(inc) {
-//     let div = document.getElementById("counter1");
-   
-//     div.innerHTML = inc;
-//     console.log(inc)
-// };
-
-// function getCounterValue() {
-//     fetch('/value') // GET
-//         .then(function(response) {
-//             return response.json();
-//         }).then(function(counter) {
-//             console.log(counter);
-//             let counterDOM = document.getElementById("counter1");
-//             counterDOM.textContent = counter;
-//         });
-// };
 
 
 var canvas = document.getElementById( 'canvas' ),

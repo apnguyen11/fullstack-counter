@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="jquery-3.4.1.min.js"></script>
+    <!-- <script src="jquery-3.4.1.min.js"></script> -->
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
 </head>
 <body>
         <canvas id="canvas">Canvas is not supported in your browser.</canvas>
@@ -24,5 +28,30 @@
     </div>
     
     <script src="counter.js"></script>
+   	<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/6.5.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCkZgZ3YFtVR80pX2CeJN43BUUKuMl2cA4",
+    authDomain: "fullstack-counter.firebaseapp.com",
+    databaseURL: "https://fullstack-counter.firebaseio.com",
+    projectId: "fullstack-counter",
+    storageBucket: "fullstack-counter.appspot.com",
+    messagingSenderId: "403948798583",
+    appId: "1:403948798583:web:6f2c8a1f290c5b6893bc72",
+    measurementId: "G-WKDYRQQT4P"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 </html>
