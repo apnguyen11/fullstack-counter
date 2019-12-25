@@ -1,3 +1,3 @@
 # FULLSTACK COUNTER
 
-Learning to use node get and post request implenting frontend and backend tasks. 
+Purpose of this project was to learn how to use node to make get and post requests to the server. 
